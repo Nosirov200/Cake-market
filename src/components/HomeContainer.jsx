@@ -20,7 +20,7 @@ const HomeContainer = () => {
               className="w-full h-full object-contain"
               alt="delivery"
             />
-          </div> 
+          </div>
         </div>
 
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">

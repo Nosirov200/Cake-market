@@ -548,6 +548,7 @@ module.exports = {
       max: 'max-content',
       fit: 'fit-content',
       300: "300px",
+      225: "225px",
       370: "370px",
       420: "420px",
       510: "510px",
