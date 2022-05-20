@@ -1,5 +1,5 @@
 module.exports = {
-  content: [ "./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
@@ -38,6 +38,11 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      headingColor: "#2e2e2e",
+      textColor: "#515151",
+      cartNumBg: "#e80013",
+      primary: "#f5f3f3",
+      cardOverlay: "rgba(256,256,256, 0.4)",
     }),
     columns: {
       auto: 'auto',
@@ -541,6 +546,14 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      300: "300px",
+      370: "370px",
+      420: "420px",
+      510: "510px",
+      650: "650px",
+      685: "685px",
+      800: "800px",
+      "90vh": "90vh",
     }),
     inset: ({ theme }) => ({
       auto: 'auto',
@@ -916,6 +929,11 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      190: "190px",
+      290: "290px",
+      390: "390px",
+      668: "668px",
+      768: "768px",
     }),
     willChange: {
       auto: 'auto',
