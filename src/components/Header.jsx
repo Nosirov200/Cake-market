@@ -43,7 +43,7 @@ const Header = () => {
     })
   }
   return (
-    <header className='fixed z-50 w-screen  p-3 px-4 md:p-6 md:px-16'>
+    <header className='fixed z-50 w-screen  p-3 px-4 md:p-6 md:px-16 bg-primary'>
       {/* Desktop table */}
       <div className='hidden md:flex w-full h-full items-center justify-between'>
         <Link to={"/"} className='flex items-center gap-2'>
@@ -102,7 +102,7 @@ const Header = () => {
 
 
       {/* Mobile table */}
-      <div className='flex items-center justify-between md:hidden w-full h-full'>
+      <div className='flex items-center justify-between md:hidden w-full h-full bg-primary'>
         <div className='relative flex items-center justify-center'>
           <MdOutlineShoppingCart className='text-textColor text-2xl cursor-pointer' />
           <div className='absolute w-4 h-4 -top-2 -right-2 rounded-full bg-red-500 ml-8 flex  items-center justify-center cursor-pointer'>
