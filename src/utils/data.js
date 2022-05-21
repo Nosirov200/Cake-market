@@ -22,14 +22,14 @@ export const heroData = [
     },
     {
         id: 3,
-        name: "Chicken Kebab",
+        name: "Chicken  Kebab",
         desc: "Mixed Kebab Plate",
         price: "10.25",
         imageSrc: C3
     },
     {
         id: 4,
-        name: "Fish Kebab",
+        name: "Fish && Kebab",
         desc: "Mixed Fish Kebab",
         price: "6.25",
         imageSrc: Fi1
