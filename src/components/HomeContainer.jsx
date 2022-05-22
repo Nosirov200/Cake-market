@@ -52,8 +52,8 @@ const HomeContainer = () => {
         />
 
         <div className="w-full h-full absolute top-0 left-0 
-        flex items-center justify-center md:px-0 
-         py-4 gap-4 flex-wrap">
+        flex items-center justify-center lg:px-24 md:px-0 
+         py-4 gap-4 flex-wrap   ">
           {heroData &&
             heroData.map((n) => (
               <div
